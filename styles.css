@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100dvw;
+  height: 100dvh;
+  font-family: "Roboto", sans-serif;
+}
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+.page-index {
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.page-index-cover {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  transition: background-color 1s ease-in-out;
+}
+
+.pre-next-btn {
+  color: #ffffff;
+  border-radius: 0.5rem; /* 8px */
+  border: 1px solid #ffffff;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  cursor: pointer;
+}
+
+/* utility classes */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
